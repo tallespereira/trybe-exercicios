@@ -1,33 +1,35 @@
-let chessPiece = 'rook'
 
-switch(chessPiece){
-case 'bishop':
-    console.log('Diagonals in any number of unoccupied squares in a straight line.');
-break;
+// exercício switch/case peças de xadrez ->
+// let chessPiece = ''
 
-case 'pawn': 
-    console.log('One vacant square directly forward. It may move two vacants squares instead if is their first move.');
-break;
+// switch(chessPiece){
+//     case 'bishop':
+//         console.log('Diagonals in any number of unoccupied squares in a straight line.');
+//     break;
 
-case 'rook':
-    console.log('Horizontal or vertically, through any number of unoccupied squares');
-break;
+//     case 'pawn': 
+//         console.log('One vacant square directly forward. It may move two vacants squares instead if is their first move.');
+//     break;
 
-case 'knight':
-    console.log('Two squares vertically and one square horizontally, or two squares horizontally and one square vertically');
-break;
+//     case 'rook':
+//         console.log('Horizontal or vertically, through any number of unoccupied squares');
+//     break;
 
-case 'queen': 
-    console.log('Any number of unoccupied squares in a straight line, in any direction');
-break;
+//     case 'knight':
+//         console.log('Two squares vertically and one square horizontally, or two squares horizontally and one square vertically');
+//     break;
 
-case 'king': 
-    console.log('One vacant square in any direction');
+//     case 'queen': 
+//         console.log('Any number of unoccupied squares in a straight line, in any direction');
+//     break;
 
-default:
-    console.log(Error)
+//     case 'king': 
+//         console.log('One vacant square in any direction');
 
-}
+//     default:
+//         console.log(Error)
+
+// }
 
 
 
